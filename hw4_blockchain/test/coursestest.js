@@ -4,7 +4,7 @@ contract('Courses', function(acc) {
 
  //I ran into a last minute error testing this one and I don't have time to fix 
  //it so uh, no testing setInstructor unfortuntatly.
-  it("Testing setInstructor() function...", function(end) 
+  it("setInstructor method Test:", function(end) 
     {
         /*Courses.deployed().then(function(c) 
         {
@@ -23,7 +23,7 @@ contract('Courses', function(acc) {
         */
        end();
     });
-  it("Testing getInstructors() function...", function(end) 
+  it("getInstructors method Test:", function(end) 
     {
         Courses.new().then(function(c) 
         {
@@ -40,7 +40,7 @@ contract('Courses', function(acc) {
             end();
         })
     });
-  it("Testing getInstructor() function...", function(end) 
+  it("getInstructor method Test:", function(end) 
   {
     Courses.new().then(function(c) 
     {
@@ -54,7 +54,7 @@ contract('Courses', function(acc) {
       end();
     })
   });
-  it("Testing countInstructors() function...", function(end) 
+  it("countInstructors method Test:", function(end) 
   {
     Courses.new().then(function(c) 
     {
